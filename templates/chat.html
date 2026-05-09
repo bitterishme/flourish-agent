@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Chat with Flourish{% endblock %}
+{% block header_extra %}
+  <form method="post" action="{{ url_for('flourish.reset') }}" class="header-form">
+    <button type="submit" class="link">new chat</button>
+  </form>
+{% endblock %}
+{% block content %}
+<section class="chat">
+  <div id="messages" class="messages">
+    {% for m in history %}
+      <div class="bubble {{ 'user' if m.role == 'user' else 'assistant' }}">{{ m.content }}</div>
+    {% endfor %}
+    {% if not history %}
+      <div class="bubble assistant placeholder">Hi there. What's on your plate?</div>
+    {% endif %}
+  </div>
+  <form id="composer" class="composer" autocomplete="off">
+    <textarea id="input" placeholder="Type a message and press Enter..." rows="2" required></textarea>
+    <button type="submit" id="send" class="primary">Send</button>
+  </form>
+</section>
+<script src="{{ url_for('static', filename='chat.js') }}"></script>
+{% endblock %}
