@@ -1,0 +1,83 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "06945887058c",
+  "session_id": "aedb1f56-375b-4aac-88b3-5893748114a0",
+  "strategy": "manual-commit",
+  "created_at": "2026-05-10T01:12:44.06353Z",
+  "branch": "master",
+  "checkpoints_count": 5,
+  "files_touched": [
+    "skills/impulse-check/SKILL.md",
+    "skills/self-care-nudge/SKILL.md",
+    "skills/session-start",
+    "skills/task-decomposer/SKILL.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-7[1m]",
+  "turn_id": "98b46c3c3554",
+  "token_usage": {
+    "input_tokens": 36,
+    "cache_creation_tokens": 18202,
+    "cache_read_tokens": 366391,
+    "output_tokens": 10481,
+    "api_call_count": 11
+  },
+  "session_metrics": {
+    "turn_count": 5
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-05-10T01:12:44.0470058Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 482,
+    "total_committed": 0,
+    "total_lines_changed": 482,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 482,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_removed_per_file": {
+        "skills/impulse-check/SKILL.md": 72,
+        "skills/self-care-nudge/SKILL.md": 75,
+        "skills/session-start": 261,
+        "skills/task-decomposer/SKILL.md": 74
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 482
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 482
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 482
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 482
+    }
+  ]
+}

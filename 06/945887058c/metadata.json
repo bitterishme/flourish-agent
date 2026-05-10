@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "06945887058c",
+  "strategy": "manual-commit",
+  "branch": "master",
+  "checkpoints_count": 5,
+  "files_touched": [
+    "skills/impulse-check/SKILL.md",
+    "skills/self-care-nudge/SKILL.md",
+    "skills/session-start",
+    "skills/task-decomposer/SKILL.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/06/945887058c/0/metadata.json",
+      "transcript": "/06/945887058c/0/full.jsonl",
+      "content_hash": "/06/945887058c/0/content_hash.txt",
+      "prompt": "/06/945887058c/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 36,
+    "cache_creation_tokens": 18202,
+    "cache_read_tokens": 366391,
+    "output_tokens": 10481,
+    "api_call_count": 11
+  }
+}
