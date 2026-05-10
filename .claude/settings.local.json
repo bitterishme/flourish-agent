@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C \"C:\\\\Users\\\\megha\\\\Desktop\\\\neurodivergent agent\" log --oneline -20)"
+      "Bash(git -C \"C:\\\\Users\\\\megha\\\\Desktop\\\\neurodivergent agent\" log --oneline -20)",
+      "Read(git -C \"C:\\\\Users\\\\megha\\\\Desktop\\\\neurodivergent agent\" log --oneline -20)",
+      "Write(git -C \"C:\\\\Users\\\\megha\\\\Desktop\\\\neurodivergent agent\" log --oneline -20)"
     ]
   }
 }
